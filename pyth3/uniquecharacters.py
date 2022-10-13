@@ -17,5 +17,25 @@ for nt in unique:
 
 print('nt count', nt_count)
 
+#store each count in a dictionary
+nt_count['A']=360
+nt_count['T']=370
+nt_count['C']=227
+nt_count['G']=206
+
+print(nt_count)
+
+#calculate GC content
+AT=float(dna.count('A')+dna.count('T'))
+ATGC=float(dna.count('A')+dna.count('T')+dna.count('C')+dna.count('G'))
+print(AT)
+print(type(AT))
+print(ATGC)
+print(type(ATGC))
+print(AT/ATGC)
+GCpercent=(AT/ATGC)*100
+
+print('GC content:',GCpercent)
+
 
 
