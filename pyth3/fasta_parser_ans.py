@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#Create a FASTA parser, or modify your FASTA parser from the previous problem set, to use regular expressions. Also make sure your parser can deal with a sequence that is split over many lines.
 
 import re
 
